@@ -1,0 +1,42 @@
+
+.language-box{
+    /* background-color: #FBBEDE;
+    background-color: #CF91A8;
+    background-color: #F7B4BD;
+    background-color: #E980B9; */
+    background-color: #FC92B6;
+    padding: 10px 20px;
+    /* text-align: center; */
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: larger;
+    transition:0.25s ease;   
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid lightgray;
+}
+
+.language-box:hover{
+    transform: scale(1.1);
+}
+
+.language-box-container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.language-box-container-heading{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 460px){
+    .language-box{
+        width: 100%;
+    }
+}

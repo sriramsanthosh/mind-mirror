@@ -1,0 +1,294 @@
+body {
+    font-family: "Montserrat";
+    user-select: none;
+    background-color: #FFD8F0;
+    background-color: #FFD8F0;
+}
+
+
+#title {
+    background-color: #A94064;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 4.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.main-subject {
+    margin: 5rem auto auto auto;
+    position: relative;
+    z-index: 2;
+}
+
+.bi::before {
+    display: inline-block;
+    /* content: ""; */
+    vertical-align: -0.125em;
+    /* background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 1rem 1rem; */
+}
+
+/* Navigation Bar     */
+
+.navbar {
+    padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+nav-link {
+    font-size: 1.2rem;
+    font-family: "Montsearrat-light";
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image  */
+
+.title-image {
+    margin-top: 3rem;
+    /* width: 80%; */
+    transform: rotate(25deg);
+    position: absolute;
+    /* margin-left: 10%; */
+    /* right: 25%; */
+    /* right: %; */
+    /* right: 25%; */
+    /* left: 25%; */
+}
+
+/* Features Section */
+
+#features {
+    padding: 7% 15% 7% 15%;
+    background-color: #FFD8F0;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+
+}
+
+.features-icons {
+    color: #D470A2;
+    font-size: 4rem;
+}
+
+.features-icons:hover {
+    color: #B53389;
+}
+
+/* Testimonial Section  */
+
+#testimonials {
+    text-align: center;
+    background-color: #A94064;
+    color: #fff;
+    
+}
+
+.testimonial-button{
+    color: #EDD8DF;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: medium;
+    background-color: transparent;
+    font-size: 12px;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+
+}
+
+.testimonial-heading{
+    padding: 7% 15% 0% 15%;
+    color: black;
+    /* padding-top: 50px; */
+}
+
+/* Call To Action Section */
+
+#cta {
+    background-color: #FFD8F0;
+    padding: 7% 15% 7% 15%;
+    text-align: justify;
+}
+
+.cta-text {
+    font-family: "Montserrat";
+    line-height: 1.5;
+    color: black;
+}
+
+/* Footer section */
+
+#footer {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    /* background-color: #A94064; */
+    background-color: #2F0C49;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.footer-icons {
+    margin: 0 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.copyright {
+    padding: 5px 0;
+}
+
+.testimonial-image{
+    width: 100px;
+}
+
+.buttons-container{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+
+/*
+
+            ---------------------------------------
+
+                         Media Queries
+
+                Media Query Format : 
+                
+                    @media <type> <feature>
+
+            ---------------------------------------
+
+*/
+
+@media screen and (max-width: 1435px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+@media screen and (max-width: 1227px) {
+    .title-image {
+        /* width: 120%; */
+        /* height: 100%; */
+        padding-top: 100px;
+        padding-left: 90px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .title-image {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width: 483px) {
+    .title-image {
+        width: 250px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2{
+        font-size: 25px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    section{
+        width: 100%;
+        padding: auto 0;
+        margin: auto 0;
+    }
+
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 348px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .title-image{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .title-image{
+        width: 170px;
+    }
+}

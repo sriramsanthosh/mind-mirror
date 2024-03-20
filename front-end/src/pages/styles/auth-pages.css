@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.auth-pages{
+    background-color: #FFD8F0;
+    font-family: "Times New Roman";
+    min-height: 100vh;
+}
+
+.banner{
+    width: 100%;
+    position: relative;
+}
+
+.form-components{
+    padding: 5px 0;
+    z-index: 1;
+    color: black;
+}
+
+.input-component{
+    padding: 10px;
+    background-color: transparent;
+    font-weight: bold;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.input-component:focus{
+    outline: none;
+}
+
+.logo-branding-container{
+    cursor: pointer;
+    padding-top: 25vh;
+}
+
+.signup-form{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.link{
+    color: blue;
+}
+
