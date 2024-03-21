@@ -39,7 +39,7 @@ const UserSession = () => {
     return(
         <div>
             {loader && <Loader/>}
-            <ToastContainer autoClose={2000} hideProgressBar />
+            {/* <ToastContainer autoClose={2000} hideProgressBar /> */}
             <NavBar />
             <h3 className="text-center" style={{width:"80%", margin:"20px auto"}}>Your Private Sanctuary for Reflections, Dreams, and Inner whispers.</h3>
             <div className="language-box-container">

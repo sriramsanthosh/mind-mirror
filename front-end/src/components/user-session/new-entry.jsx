@@ -36,7 +36,7 @@ const NewEntry = () => {
         <div>
             <ResponsiveAppBar />
             {loader && <Loader/>}
-            <ToastContainer autoClose={2000} hideProgressBar />
+            {/* <ToastContainer autoClose={2000} hideProgressBar /> */}
             <form className="new-form-entry signup-form" onSubmit={handleNewEntry}>
                 <h3 className='form-heading' style={{"padding-top":"80px"}}>Write an Entry</h3>
                 <div className='form-components'><input type='text' id='entryTitle' className='input-component' style={{width: "70%", minWidth: "268px"}} required placeholder='Day Caption.. Happy, Angry, Mood off.. *' /></div>
